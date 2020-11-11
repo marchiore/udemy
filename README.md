@@ -49,3 +49,12 @@ Abrir os logs de um container e manter imprimindo no terminal:
 ```zsh
 docker logs -f <container_ID>
 ```
+
+Iniciar/Executar o container attached(-a) e com STDIN (-i):
+
+```
+docker start -a -i <container_name>
+docker run -it <container_name>
+```
+
+
